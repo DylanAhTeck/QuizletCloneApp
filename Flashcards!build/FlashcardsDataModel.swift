@@ -1,9 +1,6 @@
 //
-//  HW6FlashcardModel.swift
+//  FlashcardModel.swift
 //  ITP342HW6
-//
-//  Created by Harrison Weinerman on 10/5/18.
-//  Copyright © 2018 Harrison Weinerman. All rights reserved.
 //
 
 import Foundation
