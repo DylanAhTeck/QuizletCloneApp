@@ -1,6 +1,6 @@
 # Flashcards!
 
-Flashcard! is an iOS app that replicates Quizlet's flashcard study module with more immersive Views. Small app built in 1-2 days.
+Flashcard! is an iOS app that replicates Quizlet's flashcard study module with more immersive Views. Small app built in 1-2 days. 
 
 Includes:
 
@@ -15,3 +15,6 @@ Includes:
 - Change Apple user details in Xcode
 
 - Run Life.xcodeproj file
+
+
+Note: re-uploaded from local copy
