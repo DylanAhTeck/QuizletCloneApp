@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C923E1FD235D3CB2001E4D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E1FC235D3CB2001E4D5C /* AppDelegate.swift */; };
+		C923E1FF235D3CB2001E4D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E1FE235D3CB2001E4D5C /* ViewController.swift */; };
+		C923E202235D3CB2001E4D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C923E200235D3CB2001E4D5C /* Main.storyboard */; };
+		C923E204235D3CB3001E4D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C923E203235D3CB3001E4D5C /* Assets.xcassets */; };
+		C923E207235D3CB3001E4D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C923E205235D3CB3001E4D5C /* LaunchScreen.storyboard */; };
+		C923E212235D3CB4001E4D5C /* AhTeckDylanHW5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E211235D3CB4001E4D5C /* AhTeckDylanHW5Tests.swift */; };
+		C923E21D235D3CB4001E4D5C /* AhTeckDylanHW5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E21C235D3CB4001E4D5C /* AhTeckDylanHW5UITests.swift */; };
+		C923E22B235D3CE1001E4D5C /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E22A235D3CE1001E4D5C /* Flashcard.swift */; };
+		C923E233235D3E4A001E4D5C /* FlashcardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E232235D3E4A001E4D5C /* FlashcardsModel.swift */; };
+		C923E234235D3E4A001E4D5C /* FlashcardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E232235D3E4A001E4D5C /* FlashcardsModel.swift */; };
+		C923E235235D3E4A001E4D5C /* FlashcardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E232235D3E4A001E4D5C /* FlashcardsModel.swift */; };
+		C923E236235D3FBE001E4D5C /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E22A235D3CE1001E4D5C /* Flashcard.swift */; };
+		C923E237235D3FBE001E4D5C /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923E22A235D3CE1001E4D5C /* Flashcard.swift */; };
+		C9258D9B236D175100EE9711 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9258D9A236D175100EE9711 /* AddViewController.swift */; };
+		C9258D9F236D2AD800EE9711 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9258D9E236D2AD800EE9711 /* TableViewController.swift */; };
+		C9258DA12370C08800EE9711 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9258DA02370C08700EE9711 /* FavoriteTableViewController.swift */; };
+		C9258DA3237362B200EE9711 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9258DA2237362B200EE9711 /* PropertyList.plist */; };
+		C9923A76236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9923A75236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift */; };
+		C9923A77236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9923A75236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift */; };
+		C9923A78236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9923A75236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C923E20E235D3CB4001E4D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C923E1F1235D3CB2001E4D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C923E1F8235D3CB2001E4D5C;
+			remoteInfo = AhTeckDylanHW5;
+		};
+		C923E219235D3CB4001E4D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C923E1F1235D3CB2001E4D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C923E1F8235D3CB2001E4D5C;
+			remoteInfo = AhTeckDylanHW5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C923E1F9235D3CB2001E4D5C /* AhTeckDylanHW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhTeckDylanHW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C923E1FC235D3CB2001E4D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C923E1FE235D3CB2001E4D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C923E201235D3CB2001E4D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C923E203235D3CB3001E4D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C923E206235D3CB3001E4D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C923E208235D3CB3001E4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C923E20D235D3CB4001E4D5C /* AhTeckDylanHW6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhTeckDylanHW6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C923E211235D3CB4001E4D5C /* AhTeckDylanHW5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhTeckDylanHW5Tests.swift; sourceTree = "<group>"; };
+		C923E213235D3CB4001E4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C923E218235D3CB4001E4D5C /* AhTeckDylanHW6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhTeckDylanHW6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C923E21C235D3CB4001E4D5C /* AhTeckDylanHW5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhTeckDylanHW5UITests.swift; sourceTree = "<group>"; };
+		C923E21E235D3CB4001E4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C923E22A235D3CE1001E4D5C /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		C923E232235D3E4A001E4D5C /* FlashcardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsModel.swift; sourceTree = "<group>"; };
+		C9258D9A236D175100EE9711 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		C9258D9E236D2AD800EE9711 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C9258DA02370C08700EE9711 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		C9258DA2237362B200EE9711 /* PropertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		C9923A75236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HW6FlashcardsDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C923E1F6235D3CB2001E4D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C923E20A235D3CB4001E4D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C923E215235D3CB4001E4D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C923E1F0235D3CB2001E4D5C = {
+			isa = PBXGroup;
+			children = (
+				C9258D9E236D2AD800EE9711 /* TableViewController.swift */,
+				C9258DA2237362B200EE9711 /* PropertyList.plist */,
+				C923E22A235D3CE1001E4D5C /* Flashcard.swift */,
+				C923E232235D3E4A001E4D5C /* FlashcardsModel.swift */,
+				C923E1FB235D3CB2001E4D5C /* AhTeckDylanHW6 */,
+				C923E210235D3CB4001E4D5C /* AhTeckDylanHW6Tests */,
+				C923E21B235D3CB4001E4D5C /* AhTeckDylanHW6UITests */,
+				C923E1FA235D3CB2001E4D5C /* Products */,
+				C9923A75236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		C923E1FA235D3CB2001E4D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C923E1F9235D3CB2001E4D5C /* AhTeckDylanHW6.app */,
+				C923E20D235D3CB4001E4D5C /* AhTeckDylanHW6Tests.xctest */,
+				C923E218235D3CB4001E4D5C /* AhTeckDylanHW6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C923E1FB235D3CB2001E4D5C /* AhTeckDylanHW6 */ = {
+			isa = PBXGroup;
+			children = (
+				C923E1FC235D3CB2001E4D5C /* AppDelegate.swift */,
+				C923E1FE235D3CB2001E4D5C /* ViewController.swift */,
+				C923E200235D3CB2001E4D5C /* Main.storyboard */,
+				C9258D9A236D175100EE9711 /* AddViewController.swift */,
+				C9258DA02370C08700EE9711 /* FavoriteTableViewController.swift */,
+				C923E203235D3CB3001E4D5C /* Assets.xcassets */,
+				C923E205235D3CB3001E4D5C /* LaunchScreen.storyboard */,
+				C923E208235D3CB3001E4D5C /* Info.plist */,
+			);
+			path = AhTeckDylanHW6;
+			sourceTree = "<group>";
+		};
+		C923E210235D3CB4001E4D5C /* AhTeckDylanHW6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C923E211235D3CB4001E4D5C /* AhTeckDylanHW5Tests.swift */,
+				C923E213235D3CB4001E4D5C /* Info.plist */,
+			);
+			path = AhTeckDylanHW6Tests;
+			sourceTree = "<group>";
+		};
+		C923E21B235D3CB4001E4D5C /* AhTeckDylanHW6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C923E21C235D3CB4001E4D5C /* AhTeckDylanHW5UITests.swift */,
+				C923E21E235D3CB4001E4D5C /* Info.plist */,
+			);
+			path = AhTeckDylanHW6UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C923E1F8235D3CB2001E4D5C /* AhTeckDylanHW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C923E221235D3CB4001E4D5C /* Build configuration list for PBXNativeTarget "AhTeckDylanHW6" */;
+			buildPhases = (
+				C923E1F5235D3CB2001E4D5C /* Sources */,
+				C923E1F6235D3CB2001E4D5C /* Frameworks */,
+				C923E1F7235D3CB2001E4D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AhTeckDylanHW6;
+			productName = AhTeckDylanHW5;
+			productReference = C923E1F9235D3CB2001E4D5C /* AhTeckDylanHW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C923E20C235D3CB4001E4D5C /* AhTeckDylanHW6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C923E224235D3CB4001E4D5C /* Build configuration list for PBXNativeTarget "AhTeckDylanHW6Tests" */;
+			buildPhases = (
+				C923E209235D3CB4001E4D5C /* Sources */,
+				C923E20A235D3CB4001E4D5C /* Frameworks */,
+				C923E20B235D3CB4001E4D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C923E20F235D3CB4001E4D5C /* PBXTargetDependency */,
+			);
+			name = AhTeckDylanHW6Tests;
+			productName = AhTeckDylanHW5Tests;
+			productReference = C923E20D235D3CB4001E4D5C /* AhTeckDylanHW6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C923E217235D3CB4001E4D5C /* AhTeckDylanHW6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C923E227235D3CB4001E4D5C /* Build configuration list for PBXNativeTarget "AhTeckDylanHW6UITests" */;
+			buildPhases = (
+				C923E214235D3CB4001E4D5C /* Sources */,
+				C923E215235D3CB4001E4D5C /* Frameworks */,
+				C923E216235D3CB4001E4D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C923E21A235D3CB4001E4D5C /* PBXTargetDependency */,
+			);
+			name = AhTeckDylanHW6UITests;
+			productName = AhTeckDylanHW5UITests;
+			productReference = C923E218235D3CB4001E4D5C /* AhTeckDylanHW6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C923E1F1235D3CB2001E4D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Dylan  Ah Teck";
+				TargetAttributes = {
+					C923E1F8235D3CB2001E4D5C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C923E20C235D3CB4001E4D5C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C923E1F8235D3CB2001E4D5C;
+					};
+					C923E217235D3CB4001E4D5C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C923E1F8235D3CB2001E4D5C;
+					};
+				};
+			};
+			buildConfigurationList = C923E1F4235D3CB2001E4D5C /* Build configuration list for PBXProject "AhTeckDylanHW6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C923E1F0235D3CB2001E4D5C;
+			productRefGroup = C923E1FA235D3CB2001E4D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C923E1F8235D3CB2001E4D5C /* AhTeckDylanHW6 */,
+				C923E20C235D3CB4001E4D5C /* AhTeckDylanHW6Tests */,
+				C923E217235D3CB4001E4D5C /* AhTeckDylanHW6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C923E1F7235D3CB2001E4D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C923E207235D3CB3001E4D5C /* LaunchScreen.storyboard in Resources */,
+				C9258DA3237362B200EE9711 /* PropertyList.plist in Resources */,
+				C923E204235D3CB3001E4D5C /* Assets.xcassets in Resources */,
+				C923E202235D3CB2001E4D5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C923E20B235D3CB4001E4D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C923E216235D3CB4001E4D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C923E1F5235D3CB2001E4D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C923E22B235D3CE1001E4D5C /* Flashcard.swift in Sources */,
+				C9258DA12370C08800EE9711 /* FavoriteTableViewController.swift in Sources */,
+				C9923A76236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift in Sources */,
+				C9258D9B236D175100EE9711 /* AddViewController.swift in Sources */,
+				C923E1FF235D3CB2001E4D5C /* ViewController.swift in Sources */,
+				C9258D9F236D2AD800EE9711 /* TableViewController.swift in Sources */,
+				C923E1FD235D3CB2001E4D5C /* AppDelegate.swift in Sources */,
+				C923E233235D3E4A001E4D5C /* FlashcardsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C923E209235D3CB4001E4D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C923E234235D3E4A001E4D5C /* FlashcardsModel.swift in Sources */,
+				C923E237235D3FBE001E4D5C /* Flashcard.swift in Sources */,
+				C9923A77236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift in Sources */,
+				C923E212235D3CB4001E4D5C /* AhTeckDylanHW5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C923E214235D3CB4001E4D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C923E235235D3E4A001E4D5C /* FlashcardsModel.swift in Sources */,
+				C923E236235D3FBE001E4D5C /* Flashcard.swift in Sources */,
+				C9923A78236B8EA7000A44B7 /* HW6FlashcardsDataModel.swift in Sources */,
+				C923E21D235D3CB4001E4D5C /* AhTeckDylanHW5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C923E20F235D3CB4001E4D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C923E1F8235D3CB2001E4D5C /* AhTeckDylanHW6 */;
+			targetProxy = C923E20E235D3CB4001E4D5C /* PBXContainerItemProxy */;
+		};
+		C923E21A235D3CB4001E4D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C923E1F8235D3CB2001E4D5C /* AhTeckDylanHW6 */;
+			targetProxy = C923E219235D3CB4001E4D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C923E200235D3CB2001E4D5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C923E201235D3CB2001E4D5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C923E205235D3CB3001E4D5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C923E206235D3CB3001E4D5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C923E21F235D3CB4001E4D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C923E220235D3CB4001E4D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C923E222235D3CB4001E4D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AhTeckDylanHW6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITP342.AhTeckDylanHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C923E223235D3CB4001E4D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AhTeckDylanHW6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITP342.AhTeckDylanHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C923E225235D3CB4001E4D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AhTeckDylanHW5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITP342.AhTeckDylanHW5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhTeckDylanHW6.app/AhTeckDylanHW6";
+			};
+			name = Debug;
+		};
+		C923E226235D3CB4001E4D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AhTeckDylanHW5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITP342.AhTeckDylanHW5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhTeckDylanHW6.app/AhTeckDylanHW6";
+			};
+			name = Release;
+		};
+		C923E228235D3CB4001E4D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AhTeckDylanHW5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITP342.AhTeckDylanHW5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AhTeckDylanHW5;
+			};
+			name = Debug;
+		};
+		C923E229235D3CB4001E4D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AhTeckDylanHW5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITP342.AhTeckDylanHW5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AhTeckDylanHW5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C923E1F4235D3CB2001E4D5C /* Build configuration list for PBXProject "AhTeckDylanHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C923E21F235D3CB4001E4D5C /* Debug */,
+				C923E220235D3CB4001E4D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C923E221235D3CB4001E4D5C /* Build configuration list for PBXNativeTarget "AhTeckDylanHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C923E222235D3CB4001E4D5C /* Debug */,
+				C923E223235D3CB4001E4D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C923E224235D3CB4001E4D5C /* Build configuration list for PBXNativeTarget "AhTeckDylanHW6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C923E225235D3CB4001E4D5C /* Debug */,
+				C923E226235D3CB4001E4D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C923E227235D3CB4001E4D5C /* Build configuration list for PBXNativeTarget "AhTeckDylanHW6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C923E228235D3CB4001E4D5C /* Debug */,
+				C923E229235D3CB4001E4D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C923E1F1235D3CB2001E4D5C /* Project object */;
+}
